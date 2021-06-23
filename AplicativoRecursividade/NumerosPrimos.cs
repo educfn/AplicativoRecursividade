@@ -9,9 +9,22 @@ namespace AplicativoRecursividade
     class NumerosPrimos
     {
 
-        public List<int> descobrirPrimosDesteNumero(int valor)
+        public List<int> descobrirPrimosDesteNumero(int valor, List<int> numerosPrimosDoValor = null, int contador = 0)
         {
-            List<int> numerosPrimosDoValor = new List<int>;
+
+            //TO DO: Colocar este if como ultimo a ser verificado focando 
+            if (numerosPrimosDoValor == null) 
+            {
+                //numerosPrimosDoValor == Numeros primos divisiveis pelo valor.
+                numerosPrimosDoValor = new List<int>();
+            }
+
+            int numeroASerVerificado = 0;
+            //Verificar se o numero eh primo.
+            for (int i = 0; i < ; i++)
+            {f
+
+            }
 
             return numerosPrimosDoValor;
         }
