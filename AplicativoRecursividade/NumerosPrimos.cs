@@ -6,30 +6,52 @@ using System.Threading.Tasks;
 
 namespace AplicativoRecursividade
 {
-    class NumerosPrimos
+    public class NumerosPrimos
     {
+
+        public NumerosPrimos()
+        {
+            
+        }
 
         public List<int> descobrirPrimosDesteNumero(int valor, List<int> numerosPrimosDoValor = null, int contador = 0)
         {
-
-            //TO DO: Colocar este if como ultimo a ser verificado focando 
-            if (numerosPrimosDoValor == null) 
+            if (numerosPrimosDoValor == null)
             {
                 //numerosPrimosDoValor == Numeros primos divisiveis pelo valor.
                 numerosPrimosDoValor = new List<int>();
+                contador = valor - 1;
+
+                //Resolver de forma ineficiente o problema do numero primo 2 nao ser adicionado a lista.
+                if(valor >= 2) numerosPrimosDoValor.Add(2);
             }
 
-
-            //Verificar se o numero eh primo.
-            for (int i = 2, numeroASerVerificado = 0; i < numeroASerVerificado; i++)
+            if (contador > 1) 
             {
-                if (i % numeroASerVerificado == 0)
+                
+                if (valor % contador != 0)
                 {
-                    break;
+                    //Realizar recursao para o proximo numero do 'contador'.
+                    numerosPrimosDoValor = descobrirPrimosDesteNumero(valor,numerosPrimosDoValor,--contador);
                 }
-                else if(i == numeroASerVerificado - 1)
+                else if (valor % contador == 0)
                 {
-                    numerosPrimosDoValor.Add(numeroASerVerificado);
+                    //Verificar se o numero eh primo.
+                    for (int i = 2, numeroASerVerificado = contador; i < numeroASerVerificado; i++)
+                    {
+                        if (i % numeroASerVerificado == 0)
+                        {
+                            break;
+                        }
+                        else if(i == numeroASerVerificado - 1)
+                        {
+                            numerosPrimosDoValor.Add(numeroASerVerificado);
+                        }
+                    }
+
+                    //Realizar recursao para o proximo numero do 'contador'.
+                    numerosPrimosDoValor = descobrirPrimosDesteNumero(valor, numerosPrimosDoValor, --contador);
+
                 }
             }
 
