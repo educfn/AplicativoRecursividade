@@ -1,0 +1,16 @@
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\AplicativoRecursividade.exe
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\AplicativoRecursividade.deps.json
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\AplicativoRecursividade.runtimeconfig.json
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\AplicativoRecursividade.runtimeconfig.dev.json
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\AplicativoRecursividade.dll
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\ref\AplicativoRecursividade.dll
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\bin\Debug\net5.0\AplicativoRecursividade.pdb
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.csproj.AssemblyReference.cache
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.AssemblyInfoInputs.cache
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.AssemblyInfo.cs
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.csproj.CoreCompileInputs.cache
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.dll
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\ref\AplicativoRecursividade.dll
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.pdb
+C:\Code\atividade-2\AplicativoRecursividade\AplicativoRecursividade\obj\Debug\net5.0\AplicativoRecursividade.genruntimeconfig.cache

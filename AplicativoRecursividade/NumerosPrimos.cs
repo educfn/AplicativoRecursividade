@@ -19,11 +19,18 @@ namespace AplicativoRecursividade
                 numerosPrimosDoValor = new List<int>();
             }
 
-            int numeroASerVerificado = 0;
-            //Verificar se o numero eh primo.
-            for (int i = 0; i < ; i++)
-            {f
 
+            //Verificar se o numero eh primo.
+            for (int i = 2, numeroASerVerificado = 0; i < numeroASerVerificado; i++)
+            {
+                if (i % numeroASerVerificado == 0)
+                {
+                    break;
+                }
+                else if(i == numeroASerVerificado - 1)
+                {
+                    numerosPrimosDoValor.Add(numeroASerVerificado);
+                }
             }
 
             return numerosPrimosDoValor;
