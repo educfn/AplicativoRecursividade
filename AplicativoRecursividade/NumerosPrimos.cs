@@ -25,7 +25,7 @@ namespace AplicativoRecursividade
                 //Resolver de forma ineficiente o problema do numero primo 2 nao ser adicionado a lista.
                 if(valor >= 2) numerosPrimosDoValor.Add(2);
             }
-
+            
             if (contador > 1) 
             {
                 
@@ -39,7 +39,7 @@ namespace AplicativoRecursividade
                     //Verificar se o numero eh primo.
                     for (int i = 2, numeroASerVerificado = contador; i < numeroASerVerificado; i++)
                     {
-                        if (i % numeroASerVerificado == 0)
+                        if (numeroASerVerificado % i == 0)
                         {
                             break;
                         }
